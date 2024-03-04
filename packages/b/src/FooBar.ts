@@ -1,4 +1,4 @@
-import { Foo } from "@test/a";
+import { Foo } from "../../a/src/Foo";
 import { Bar } from "./Bar";
 
 export const FooBar = Foo + Bar;
