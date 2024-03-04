@@ -1,7 +1,7 @@
-import { Foo } from 'src/Foo/Foo';
+import { Foo } from "src/Foo";
 
-describe('Foo', () => {
-  it('should be Foo', () => {
-    expect(Foo).toBe('Foo');
+describe("Foo", () => {
+  it("should be Foo", () => {
+    expect(Foo).toBe("Foo");
   });
 });

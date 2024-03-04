@@ -1,7 +1,11 @@
 {
-  "name": "a",
+  "name": "@test/a",
   "version": "1.0.0",
-  "main": "src/Foo/Foo.ts",
+  "main": "./src/Foo.ts",
+  "exports": {
+    ".": "./src/Foo.ts",
+    "./api": "./src/api/Quux.ts"
+  },
   "license": "MIT",
   "devDependencies": {}
 }
