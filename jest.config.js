@@ -1,3 +1,3 @@
 module.exports = {
-  projects: ["<rootDir>/packages/a", "<rootDir>/packages/b"],
+  projects: ["<rootDir>/packages/*"],
 };

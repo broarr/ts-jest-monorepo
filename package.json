@@ -5,8 +5,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "a",
-    "b"
+    "packages/*"
   ],
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.3",
